@@ -7,7 +7,7 @@
 #
 
 FROM ibmjava:latest
-MAINTAINER clemence.frioux@inria.fr
+LABEL author="clemence.frioux@inria.fr" 
 
 # wget and ssh-server and build-essential 
 RUN apt-get update && \
